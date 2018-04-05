@@ -169,6 +169,15 @@ mod tests {
   }
 
   #[test]
+  fn right_down() {
+    assert_eq!("RIGHT\nDOWN", displayPathtoPrincess(1, "---\n-m-\n--p"));
+  }
+
+  #[test]
+  fn right_up() {
+    assert_eq!("RIGHT\nUP", displayPathtoPrincess(1, "--p\n-m-\n---"));
+  }
+  #[test]
   fn left_up_left_up() {
     assert_eq!("LEFT\nUP\nLEFT\nUP", displayPathtoPrincess(1, "p--\n---\n--m"));
   }
