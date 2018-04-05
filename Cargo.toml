@@ -1,0 +1,6 @@
+[package]
+name = "saveprincess"
+version = "0.1.0"
+authors = ["Rodrigo Otavio van den Berg Maia <rodrigo@devlandia.net>"]
+
+[dependencies]
